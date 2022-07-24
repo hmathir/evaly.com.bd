@@ -10,7 +10,7 @@
     <!-- Header Started -->
     <header class="container">
             <!-- Navbar Started -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="120" height="40" ></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +22,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoe">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subs">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -95,9 +95,10 @@
             </button>
           </div>
           <!-- Slider Ended -->
-
     </header>
     <!-- Header Ended -->
+
+
 
     <!-- Main Section Started -->
     <main>
@@ -136,7 +137,7 @@
 
 
         <!-- Shoe Section Started -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoe">
             <h2 class="fw-bolder">Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                 <div class="col">
@@ -183,7 +184,7 @@
         <!-- Shoe Section Ended -->
 
         <!-- Backpack Section Started -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2 class="fw-bolder">Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                 <div class="col">
@@ -229,6 +230,25 @@
               </div>
         </section>
         <!-- Backpack Section Ended -->
+
+        <!-- Subscribe Form Started -->
+        <section style="height: 300px;" class="container my-5 bg-info d-flex justify-content-center align-items-center rounded-3" id="subs">
+                <div>
+                    <h1>Subscribe Our Newslatter!</h1>
+                    <p>Get All Update & Coupons Easily.</p>
+                    <form>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </form>
+                    <button type="submit" class="mt-1 btn btn-primary">Submit</button>
+                </div>
+        </section>
+        <!-- Subscribe Form Ended -->
+
+        <!-- Footer Started -->
+        <footer class="text-center">
+            <p>Copyright &copy; HM ATHIR - 2023</p>
+        </footer>
+        <!-- Footer Ended -->
 
     </main>
     <!-- Main Section Ended -->
