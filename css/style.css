@@ -1,0 +1,14 @@
+.evaly-bg-color{
+background-color: #fceae8;
+}
+
+.evaly-btn-color{
+    background-color: rgb(255, 61, 125);
+    cursor: pointer;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.categories img{
+    width: 100px;
+}
